@@ -5,6 +5,14 @@
     position: relative;
 }
 
+h1 {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: none;
+    padding: 20px 20px;
+}
+
 .slider-button {
     border: none;
     display: inline-block;
@@ -34,3 +42,50 @@
 .display-right {
     right: 0%;
 }
+
+.ape {
+    
+    border-color: transparent;
+    background-color: transparent;
+    
+}
+
+#monkey {
+    padding: none;
+    border-radius: 100px;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    margin-left: 50%;
+    border-radius: 100px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(180, 180, 180);
+    padding: 1%;
+    margin-top: -25px;
+}
+
+.dropdown-content a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.dropbtn {
+    cursor: pointer;
+    position: fixed;
+    margin-left: 50%;
+    z-index: 2;
+    margin-top: -70px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.show {display:block;}
