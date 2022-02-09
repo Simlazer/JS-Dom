@@ -9,7 +9,7 @@ h1 {
     width: 100%;
     background-color: black;
     color: white;
-    margin: none;
+    margin: 0px;
     padding: 20px 20px;
 }
 
@@ -51,8 +51,9 @@ h1 {
 }
 
 #monkey {
-    padding: none;
+    padding: 0px;
     border-radius: 100px;
+    width: 100px;
 }
 
 .dropdown-content {
